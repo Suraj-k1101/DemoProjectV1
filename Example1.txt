@@ -1,0 +1,22 @@
+ package loopingStatement;
+
+public class test
+{
+
+public static void main(String[]args)
+{
+ 
+  int no = 6;
+  int facto = 1;
+ 
+ for(int i=1;i<=no;i++)
+ {
+
+   facto = facto * i;
+ 
+ }
+
+  System.out.println("factorial of " + no + " is " + facto);
+}
+
+}
